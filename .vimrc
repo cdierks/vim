@@ -26,6 +26,11 @@ set laststatus=2
 " Show LineNumbers
 set number
 
+" Word Wrap Options
+:set wrap
+:set linebreak
+:set nolist  " list disables linebreak
+
 " Change Mapleader to Colon
 let mapleader = "-"
 
